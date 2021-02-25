@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class TodoComponent implements OnInit {
   
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
   }

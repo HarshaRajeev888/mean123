@@ -1,0 +1,27 @@
+<div>
+ <label for="">userName</label>   
+</div>
+<div>
+    <input type="text"   [formControl]="name"></div>
+<div>
+    <label for="">Email</label>
+</div>
+<div>
+     <input type="email"  [formControl]="email">
+</div>
+<div>
+    <label for="">Password</label>
+</div>
+<div>
+    <input type="password"  [formControl]="password">
+</div>
+<div>
+    <label for="">Mobile_No</label>
+</div>
+<div>
+    <input type="tel"  [formControl]="mobile">
+</div>
+
+
+
+<button (click)=save()>save</button>
